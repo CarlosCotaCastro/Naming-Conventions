@@ -119,6 +119,37 @@
     }
 </pre>
 
+<h3>Variable-Names</h3>
+
+<p>When used in a small scope, than variable names should be as short as possible.</p>
+
+<pre>
+    private function Bar(int $id) : string {
+
+        $p = ProductFactory::getByID($id);
+        return $p->getPrice();
+    
+    }
+</pre>
+
+<p>$p is only one char long.</p>
+
+<h3>Types</h3>
+<p>Since PHP 7.0 the parameter types and return types are fully supported. Use this when ever possible.</p>
+
+<p>Example:</p>
+
+<pre>
+    private function Bar(int $id) : string {
+
+        $p = ProductFactory::getByID($id);
+        return $p->getPrice();
+    
+    }
+</pre>
+
+<p>The benefit is that you can avoid the need to create a lot of type-checks.</p>
+
 <h2>Classes</h2>
 
 <p>Classes should follow a certain build-up.</p>
