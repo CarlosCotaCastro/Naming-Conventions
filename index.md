@@ -1,23 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Naming Conventions</title>
-    <style>
-        h1,h2,h3,h4,p {
-            font-family: sans-serif;
-        }
-        pre {
-            background: #333333;
-            color: #fff;
-            padding: 2em 1em;
-        }
-    </style>
-</head>
-<body>
-
 <h1>Naming Conventions</h1>
 
 <p>This document serves the purpose to make to anybody who works on the bendenprojects the coding-style transparent.</p>
@@ -203,6 +183,3 @@ class oVideo {
     ...
 }
 </pre>
-
-</body>
-</html>
